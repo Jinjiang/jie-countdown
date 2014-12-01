@@ -1,0 +1,39 @@
+<!--
+  # countdown
+
+  倒计时
+
+  [target] [now]
+  #target
+  #now
+  #setCountdown(millisecond)
+  #setTarget(string|Date)
+  #setNow(string|Date)
+  #pause()
+  #play()
+
+  # Example
+
+  ```
+  <jie-countdown target="" now=""></jie-countdown>
+  ```
+-->
+
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="jie-countdown" attributes="target, now">
+
+  <template>
+    <style>
+    </style>
+    <content></content>
+  </template>
+
+  <script>
+    Polymer('jie-countdown', {
+      now: '',
+      target: '',
+    });
+  </script>
+
+</polymer-element>
